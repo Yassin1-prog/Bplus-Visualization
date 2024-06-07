@@ -9,5 +9,27 @@
   </head>
   <body>
     <h1>B+ Tree Visualization Tool</h1>
+    <div class="forms">
+      <form onsubmit="return false">
+        <input type="number" id="ikey" name="key" placeholder="Key to insert" />
+        <button class="insert">Insert</button>
+        <input
+          type="number"
+          id="dkey"
+          name="dkey"
+          placeholder="Key to delete"
+        />
+        <button class="delete">Delete</button>
+        <label for="dropdown">Maximum Degree</label>
+        <select id="dropdown">
+          <option value="3" selected>3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+        </select>
+        <button class="reset">Reset</button>
+      </form>
+    </div>
   </body>
 </html>

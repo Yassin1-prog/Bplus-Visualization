@@ -1,11 +1,82 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: Arial, sans-serif;
 }
 
 h1 {
   text-align: center;
   background-color: cornflowerblue;
-  padding: 25px;
+  color: white;
+  padding: 20px;
   margin: 0;
+}
+
+.forms {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+input,
+select,
+button {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+button {
+  background-color: cornflowerblue;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkblue;
+}
+
+label {
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+#dropdown {
+  font-size: 16px;
+}
+
+.level {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.node {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #000;
+  padding: 10px;
+  margin: 0 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.node span {
+  padding: 0 10px;
+  border-left: 1px solid #000;
+}
+
+.node span:first-child {
+  border-left: none;
+}
+
+.tree-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
 }
