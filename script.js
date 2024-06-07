@@ -1,3 +1,7 @@
+/*
+Inspiration for the B+ tree code implementation from https://www.geeksforgeeks.org/deletion-in-b-tree/ 
+*/
+
 class Node {
   constructor(order) {
     this.order = order;

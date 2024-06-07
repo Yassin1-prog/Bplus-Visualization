@@ -53,6 +53,7 @@ label {
   margin: 20px 0;
 }
 
+/* still needs readjustments when the tree gets bigger */
 .node {
   display: flex;
   align-items: center;
